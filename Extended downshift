@@ -1,0 +1,14 @@
+# a) the space character, and 
+ #Downshift of the letters where the beginning of the alphabet is reached.
+  the output for this sample is supposed to be "Nmd cxz zs Z shld"
+
+
+name = "One day at A time"
+word = ""
+for i in range(len(name)):
+    a = name[i]
+    x = ord(a) - 1
+    y = chr(x)
+    word += y
+name = word
+print(name)
